@@ -72,7 +72,9 @@ For full guide, please refer to documents inside the source code. Following is v
         #make buildkernel KERNCONF=OPENLISP_KERNEL
         or 
         #make buildkernel KERNCONF=OPENLISP_KERNEL -j n 
+        
     replace n with n is the number of cpu you have to speed up the compilation process
+    
         #make installkernel KERNCONF=OPENLISP_KERNEL
 	
 	Note: it could take more than 30 minutes, depend on the system
